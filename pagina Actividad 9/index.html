@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Perfil Personal</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a mi página personal</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Hola, soy estudiante de programación del curso 1003. Me apasiona la tecnología, el diseño y crear experiencias interactivas en la web, el desarrollo
+        de videojuegos, entre otras cosas.</p>
+    </section>
+    <section id="contacto">
+      <h2>Contáctame</h2>
+      <form id="formulario-contacto">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="respuesta"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Mi Perfil Personal</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
